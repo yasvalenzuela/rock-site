@@ -1,0 +1,131 @@
+/*
+Resetear el navegador
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+#menu {
+  background-color: #343A40;
+  padding: 1%;
+}
+
+#menu ul li {
+  list-style: none;
+  display: inline-flex;
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: #6C7075;
+}
+
+#menu ul li:first-child {
+  margin-left: 7%;
+  margin-right: 55%;
+  color: #ffffff;
+}
+
+#primeraParte {
+  background-image: url(../images/header.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 5% 55%;
+  color: #ffffff;
+  padding: 10% 5%;
+  font-size: 50px;
+}
+
+#primeraParte h2 {
+  font-size: 90px;
+  margin-left: 19%;
+}
+
+#primeraParte h3 {
+  margin-left: 25%;
+}
+
+#segundaParte h3, h5 {
+  margin-left: 55%;
+  width: 75%;
+}
+
+#segundaParte h3 {
+  font-size: 35px;
+  margin-top: 25%;
+}
+
+#segundaParte h5 {
+  font-size: 15px;
+  margin-top: 1%;
+}
+
+#segundaParteImagen img {
+  border-radius: 250px;
+  width: 65%;
+  margin-top: 10%;
+  margin-left: 80%;
+}
+
+#terceraParteImagen img {
+  border-radius: 250px;
+  width: 65%;
+  margin-top: 10%;
+  margin-left: 55%;
+}
+
+#terceraParteTitulo {
+  margin-left: 80%;
+  width: 75%;
+  margin-top: 25%;
+  font-size: 35px;
+}
+
+#terceraParteParrafo {
+  margin-left: 80%;
+  width: 75%;
+  margin-top: 1%;
+  font-size: 15px;
+}
+
+#cuartaParteTitulo {
+  margin-left: 55%;
+  width: 75%;
+  margin-top: 25%;
+  font-size: 35px;
+}
+
+#cuartaParteParrafo {
+  margin-left: 55%;
+  width: 75%;
+  margin-top: 1%;
+  font-size: 15px;
+}
+
+
+#cuartaParteImagen img {
+  border-radius: 250px;
+  width: 65%;
+  margin-top: 10%;
+  margin-left: 80%;
+}
+
+#footer {
+  background-color: #343A40;
+  margin-top: 5%;
+  text-align: center;
+  color: #ffffff;
+  padding: 3%;
+}
+
+
+
+
+@media (max-width: 450px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
